@@ -7,7 +7,8 @@ It plays buzzer whenever any movement is detected by PIR sensor
 
 Hardware:
 - Arduino
-- RGB Led
+- PIR sensor
+- Buzzer
 
 
 Connections:
@@ -15,7 +16,7 @@ Connections:
 
 Connect pin1 of PIR to pin 5V of Arduino
 Connect pin2 of PIR to pin 9 of Arduino
-Connect pin3 of RGB to pin GND of Arduino
+Connect pin3 of PIR to GND of Arduino
 
 Connect small leg of Buzzer to GND
 Connect longer leg of Buzzer to pin 11 of Arduino
